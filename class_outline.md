@@ -1,9 +1,5 @@
 # Authentication in FastAPI
 
-## Me
-
-- Alon Itach alon.itach@mail.huji.ac.il
-- +972 52 4949960
 
 ## Today's Agenda
 
