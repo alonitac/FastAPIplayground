@@ -18,7 +18,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 async def get_access_token(form_data: OAuth2PasswordRequestForm = Depends()):
     # verify username and password
     # where to store passwords? how?
-    if form_data.username != 'israel' and form_data.password != 'israeli':
+    if form_data.username != 'israel' or form_data.password != 'israeli':
         raise HTTPException(status_code=400, detail="Bad username or password")
 
     # A "token" is just a string with some content that we can use later to verify this user.
