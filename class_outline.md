@@ -18,3 +18,9 @@
 
 - [AWS auth](https://docs.aws.amazon.com/IAM/latest/UserGuide/intro-structure.html)
 - [Security intro in FastAPI](https://fastapi.tiangolo.com/tutorial/security/first-steps/)
+
+#### `fastapi_auth_middleware` alternative for python<3.8 users ([source](https://stackoverflow.com/questions/61153498/what-is-the-good-way-to-provide-an-authentication-in-fastapi))
+
+- https://github.com/identixone/fastapi_contrib
+- https://github.com/fastapi-users/fastapi-users
+- https://github.com/MushroomMaula/fastapi_login
